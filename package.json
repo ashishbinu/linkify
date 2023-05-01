@@ -1,0 +1,16 @@
+{
+  "name": "make-it-link",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "esbuild ./messageDisplay/message-content-script.js --bundle --outfile=./messageDisplay/content-script.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autolinker": "^4.0.0",
+    "esbuild": "^0.17.18"
+  }
+}

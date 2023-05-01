@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+  "name": "Make it link",
+  "description": "An extension to convert text links to anchor links",
+  "version": "4.0",
+  "author": "Ashish Binu",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "ashishbinu.make-it-link@addons.thunderbird.net",
+      "strict_min_version": "78.0"
+    }
+  },
+  "permissions": [
+    "messagesModify"
+  ],
+  "background": {
+    "page": "background.html"
+  },
+  "icons": {
+    "64": "images/icon-64px.png",
+    "32": "images/icon-32px.png",
+    "16": "images/icon-16px.png"
+  }
+}
