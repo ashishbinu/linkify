@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "nodemon --ignore ./messageDisplay/content-script.js --watch messageDisplay/ --exec 'clear && pnpm run build'",
     "build": "esbuild ./messageDisplay/message-content-script.js --bundle --outfile=./messageDisplay/content-script.js"
   },
   "keywords": [],
@@ -12,5 +13,8 @@
   "dependencies": {
     "autolinker": "^4.0.0",
     "esbuild": "^0.17.18"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
   }
 }
