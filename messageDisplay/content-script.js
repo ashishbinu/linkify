@@ -2299,5 +2299,10 @@
   var es2015_default = autolinker_default;
 
   // messageDisplay/message-content-script.js
-  document.body.innerHTML = es2015_default.link(document.body.innerHTML);
+  document.body.innerHTML = es2015_default.link(document.body.innerHTML, {
+    stripPrefix: {
+      scheme: false,
+      www: true
+    }
+  });
 })();
