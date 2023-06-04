@@ -1,5 +1,5 @@
 {
-  "name": "make-it-link",
+  "name": "linkify",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",

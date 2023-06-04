@@ -1,12 +1,12 @@
 {
   "manifest_version": 2,
-  "name": "Make it link",
-  "description": "An extension to convert text links to anchor links",
+  "name": "Linkify",
+  "description": "An extension to convert plain text links to clickable links",
   "version": "4.0",
   "author": "Ashish Binu",
   "browser_specific_settings": {
     "gecko": {
-      "id": "ashishbinu.make-it-link@addons.thunderbird.net",
+      "id": "ashishbinu.linkify@addons.thunderbird.net",
       "strict_min_version": "78.0"
     }
   },
