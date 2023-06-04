@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Linkify",
   "description": "An extension that automatically converts plain text URLs to clickable links",
-  "version": "4.0",
+  "version": "1.0",
   "author": "Ashish Binu",
   "browser_specific_settings": {
     "gecko": {
