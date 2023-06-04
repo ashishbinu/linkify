@@ -9,7 +9,7 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "autolinker": "^4.0.0",
     "esbuild": "^0.17.18"
