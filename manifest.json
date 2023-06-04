@@ -17,8 +17,8 @@
     "page": "background.html"
   },
   "icons": {
-    "64": "images/icon-64px.png",
-    "32": "images/icon-32px.png",
-    "16": "images/icon-16px.png"
+    "64": "icon-64px.png",
+    "32": "icon-32px.png",
+    "16": "icon-16px.png"
   }
 }
