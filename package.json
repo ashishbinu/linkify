@@ -1,7 +1,7 @@
 {
   "name": "linkify",
   "version": "1.0.0",
-  "description": "",
+  "description": "A Mozilla Thunderbird extension that automatically converts plain text URLs to clickable links",
   "type": "module",
   "scripts": {
     "dev": "nodemon -e js,json,html --ignore build/ --exec 'clear && pnpm run build'",
