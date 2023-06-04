@@ -29,11 +29,3 @@ To install and run Linkify locally for development purposes, follow these steps:
    ```shell
    pnpm dev
    ```
-
-## TODO
-
-- [ ] Configure the autolinker.
-- [x] Create a nodemon dev script to build content-script.js.
-- [ ] Add a toggle button for this extension.
-- [x] Improve file structure.
-- [ ] Write README
