@@ -4,6 +4,7 @@ import * as path from "path";
 
 async function copyFilesToDirectory(fileList, targetDirectory) {
   try {
+    await fs.rm(targetDirectory, { recursive: true });
     await fs.mkdir(targetDirectory, { recursive: true });
     const copyPromises = fileList.map(async (file) => {
       const sourcePath = path.resolve(file);
