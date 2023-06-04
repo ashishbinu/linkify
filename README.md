@@ -1,22 +1,39 @@
+<p align="center">
+  <img src="images/logo.png" height=200 alt="Linkify Logo" height="200">
+</p>
+
 # Linkify
 
-A Mozilla Thunderbird extension to automatically convert plain text urls to clickable links.
+Linkify is a Mozilla Thunderbird extension that automatically converts plain text URLs to clickable links.
 
-# Requirements
+## Requirements
 
-* `git`
-* `pnpm`
+To develop Linkify, you need to have the following software installed:
 
-# Developer Installation 
+- `git`
+- `pnpm`
 
-* `git clone https://github.com/ashishbinu/linkify`
-* `pnpm install`
-* `pnpm dev`
+## Developer Installation
+
+To install and run Linkify locally for development purposes, follow these steps:
+
+1. Clone the Linkify repository:
+   ```shell
+   git clone https://github.com/ashishbinu/linkify
+   ```
+2. Install dependencies using pnpm:
+   ```shell
+   pnpm install
+   ```
+3. Start the development server:
+   ```shell
+   pnpm dev
+   ```
 
 ## TODO
 
-* [ ] Configure the autolinker.
-* [x] Create a nodemon dev script to build content-script.js.
-* [ ] Add a toggle button for this extension.
-* [x] Improve file structure.
-* [ ] Write README
+- [ ] Configure the autolinker.
+- [x] Create a nodemon dev script to build content-script.js.
+- [ ] Add a toggle button for this extension.
+- [x] Improve file structure.
+- [ ] Write README
